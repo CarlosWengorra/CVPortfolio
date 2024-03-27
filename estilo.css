@@ -1,0 +1,134 @@
+@import url(./css/contacto.css);
+@import url(./css/curriculum.css);
+@import url(./css/menu.css);
+@import url(./css/skill.css);
+@import url(./css/inicio.css);
+@import url(./css/portfolio.css);
+@import url(./css/general.css);
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(img/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.contacto{
+    background-image: url(img/contact_bg.png);
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 0;
+}
+
+
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
+
+.skills .skill .trello{
+    width: 0%;
+    animation: 2s trello forwards;
+}
+@keyframes trello {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+.skills .skill .NodeJs{
+    width: 0%;
+    animation: 2s NodeJs forwards;
+}
+@keyframes NodeJs {
+    0%{width: 0%;}
+    100%{width: 81%;}
+}
+
+.skills .skill .ReactJS{
+    width: 0%;
+    animation: 2s ReactJS forwards;
+}
+@keyframes ReactJS {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .Figma{
+    width: 0%;
+    animation: 2s Figma forwards;
+}
+@keyframes Figma {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.skills .skill .Tailwindcss{
+    width: 0%;
+    animation: 2s Tailwindcss forwards;
+}
+@keyframes  Tailwindcss {
+    0%{width: 0%;}
+    100%{width: 79%;}
+}
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .trabajo{
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+@keyframes trabajo {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 99%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion {
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+
+.skills .skill .proyect{
+    width: 0%;
+    animation: 2s proyect forwards;
+}
+@keyframes proyect {
+    0%{width: 0%;}
+    100%{width: 94%;}
+}

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Portfolio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/mi foto-fotor-20240326212658.png" alt="">
+            </div>
+            <h1>Wengorra Carlos</h1>
+            <h2>Desorrallor Front End & Back End</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/carlitos.wengorra"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/CarlosWengorra?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/carlos-wengorra-b03b062b0/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.canva.com/design/DAGAndo6UDM/OCUG5vUiQN6rROID_9OTkA/edit?utm_content=DAGAndo6UDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton "><i class="fa-solid fa-user"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Carlos Wengorra.</span> Actualmente me estoy enfocando hacia el desarrollo web, tengo habilidades en HTML5, CSS5, JavaScript y ReactJS. También tengo experiencia como analista de datos en el área de ventas y productividad.
+
+                Estoy comprometido con mi trabajo y siempre en busca de crecer profesionalmente. Mi objetivo es contribuir al desarrollo de soluciones tecnológicas innovadoras. ¡Estoy emocionado por las nuevas oportunidades que me esperan en el futuro!</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25/08/2000
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+54) 2616621980
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            wengorracarlos@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website Github</strong>
+                            https://github.com/CarlosWengorra
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Mendoza, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="https://www.canva.com/design/DAGAndo6UDM/OCUG5vUiQN6rROID_9OTkA/edit?utm_content=DAGAndo6UDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton " download="CV">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML 5 & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trello</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node.Js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ReactJS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Tailwindcss
+                        </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Full Stack Developer </h4>
+                        <span class="casa">Universidad Tecnologica Nacional de CABA Bs. As.</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p> Comprometido, adaptable y colaborativo, poseo habilidades para el trabajo independiente y en equipo. Con experiencia en el desarrollo de sitios web mediante HTML5, CSS3 y Bootstrap, así como en la creación de soluciones dinámicas utilizando NodeJS y sitios Full Stack con React JS. Además, soy un desarrollador experimentado en JavaScript y TypeScript. Actualmente, estoy ampliando mis habilidades para gestionar bases de datos web como MySQL y MongoDB. Mi enfoque proactivo y mi pasión por el aprendizaje continuo me impulsan a contribuir de manera significativa en cualquier proyecto en el que participe.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Derecho</h4>
+                        <span class="casa">Universidad Siglo XII</span>
+                        <span class="fecha">2019 - Actualidad</span>
+                        <p>Estudiante de Derecho comprometido, adaptable y colaborativo, con habilidades destacadas tanto para el trabajo independiente como en equipo. Cuento con experiencia en la gestión eficiente de demandas legales, asegurando el cumplimiento riguroso de plazos. Mi insaciable curiosidad y mi voluntad inquebrantable de aprendizaje continuo me impulsan a contribuir de manera proactiva en proyectos grupales, siempre en búsqueda del desarrollo de nuevas habilidades y conocimientos. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="col derecha">
+                    <h3>Freelancer, Frontend Web Developer</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Syntaxis</span>
+                        <span class="fecha">2023- Actualidad</span>
+                        <p>Como apasionado del diseño web y la programación, me especializo en crear experiencias digitales cautivadoras y funcionales para mis clientes. Mis responsabilidades incluyen:</p>
+                        <p>• Desarrollo de Interfaz de Usuario: Transformo ideas en realidad, diseñando y desarrollando interfaces de usuario atractivas y fáciles de usar que se alinean perfectamente con las necesidades y la visión del cliente.</p>
+                        <p>• Desarrollo de Páginas Web a Medida: Desde sitios web corporativos hasta plataformas de comercio electrónico, tengo experiencia en la creación de una amplia gama de proyectos web personalizados, utilizando tecnologías de vanguardia como HTML5, CSS3 y JavaScript.</p>
+                        <p>• Colaboración con Equipos Independientes: Me enorgullezco de mi capacidad para trabajar de manera eficiente tanto de forma independiente como en equipos dispersos geográficamente. He colaborado con diseñadores gráficos, desarrolladores backend y otros profesionales para llevar a cabo proyectos complejos con éxito.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/simpson-wiki.png" alt="">
+                    <div class="overlay">
+                        <h3>API Los Simpsons</h3>
+                        <p>JS, React, HTML 5, CSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ef0297ee20f416dc3c5b9b01dbb03c80.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Pagina Web</h3>
+                        <p>Html 5, Css, JavaScript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/b0f6e7174ba5ed85061efa215d32a532.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Pagina Web Ropa</h3>
+                        <p>Ropa Overzide</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/4c2259c7a35922f642a4caa425af815d.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Chacras de Coria, Lujan de Cuyo, Mendoza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: (+54) - 2616621980 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: wengorracarlos@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/carlitos.wengorra"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/CarlosWengorra?tab=repositories"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/carlos-wengorra-b03b062b0/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.canva.com/design/DAGAndo6UDM/OCUG5vUiQN6rROID_9OTkA/edit?utm_content=DAGAndo6UDM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton "><i class="fa-solid fa-user"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
