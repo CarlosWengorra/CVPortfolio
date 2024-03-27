@@ -315,19 +315,25 @@
                         </div>
                     </a>
                 </div>
-                <div class="proyecto">
+
+                <div class="galeria">
+                    <a class="proyecto" href="https://ropaovzweb.netlify.app/">
                     <img src="img/ef0297ee20f416dc3c5b9b01dbb03c80.png" alt="">
                     <div class="overlay">
                         <h3>Diseño Pagina Web</h3>
                         <p>Html 5, Css, JavaScript</p>
                     </div>
+                </a>
                 </div>
-                <div class="proyecto">
+            
+                <div class="galeria">
+                    <a class="proyecto" href="https://ropaovzweb.netlify.app/remeras">
                     <img src="img/b0f6e7174ba5ed85061efa215d32a532.png" alt="">
                     <div class="overlay">
                         <h3>Diseño Pagina Web Ropa</h3>
                         <p>Ropa Overzide</p>
                     </div>
+                </a>
                 </div>
                
             </div>
@@ -341,15 +347,14 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form action="enviar.php" method="post">
+                        <input type="text" name="nombre" placeholder="Tú Nombre">
+                        <input type="text" name="telefono" placeholder="Número telefónico">
+                        <input type="text" name="correo" placeholder="Dirección de correo">
+                        <input type="text" name="tema" placeholder="Tema">
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">Enviar Mensaje<i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
