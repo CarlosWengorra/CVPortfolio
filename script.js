@@ -41,3 +41,13 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+$(document).ready(function() {
+    // Agregar un evento de clic al proyecto
+    $(".proyecto").click(function() {
+        // Obtener la URL del atributo href del enlace
+        var url = $(this).attr("href");
+        // Redireccionar a la URL
+        window.location.href = url;
+    });
+});
