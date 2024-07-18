@@ -1,0 +1,9 @@
+.hero{
+    background-image: url(../img/imagenhero.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 56px);
+    padding-bottom: 20px;
+}

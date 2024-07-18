@@ -1,0 +1,10 @@
+
+.silueta{
+    background-image: url(../img/SiluetaVerde.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: calc(79vh - 10px);
+    padding-bottom: 20px;
+}

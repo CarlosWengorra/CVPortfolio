@@ -1,0 +1,35 @@
+
+.cardImagen{
+    position: relative;      
+}
+.vectores{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 80%;
+    top: 50%;
+    left: 10%;
+}
+.imgen{
+    padding: 20px;
+    
+}
+.vectorIzq, .vectorDer{
+    cursor: pointer;
+    
+}
+.imgcirculos{
+    width: 2%;
+    margin:5px;
+    
+}
+.circulos{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: -3px;    
+    justify-content: center;
+}
+.botonazo{
+    text-transform: capitalize;
+}

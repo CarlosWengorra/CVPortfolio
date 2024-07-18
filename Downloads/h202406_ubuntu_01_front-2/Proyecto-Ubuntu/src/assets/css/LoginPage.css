@@ -1,0 +1,11 @@
+.CenterContainer{
+  width: auto;
+  height: 760px;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/backgroundImageIndex.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0px;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.category-cards-section{
+    font-family: "Lato", sans-serif;
+    width: 360px;
+   margin-left: 16px;
+   margin-top: 40px;
+}
+
+.meu-text{
+font-family: Lato, sans-serif;
+width: 328px;
+height: 24px;
+
+left: 16px;
+
+
+color:  #090909;
+
+
+font-size: 16px;
+font-weight: 600;
+line-height: 25px;
+text-align: center;
+
+
+}
+
+.cat-text{
+    width: 328px;
+    height: 24px;
+    
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    color:   #090909;
+
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cards{
+    gap: 10px 0px;
+}
+
+.boton-div{
+    margin: 0 auto;
+}
+
+
+.boton-ver-mas{
+width: 184px;
+height:40px;
+/*top: 1347px;
+gap: 10px;
+
+*/
+left: 88px;
+padding: 10px 24px 10px 24px;
+border: 0px;
+border-radius: 100px;
+opacity: 0px;
+background: #093C59;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+}
+
+.boton-ver-mas-texto{
+color: #FDFDFE;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+margin: 0;
+
+}
+
+.btn-categorias{
+    width: 184px;
+    height:40px; 
+    padding: 10px 24px 10px 24px;
+    border: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    background: #093C59;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    color: #FDFDFE;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.btn-categorias:hover{
+    background: #072e44;
+}
+

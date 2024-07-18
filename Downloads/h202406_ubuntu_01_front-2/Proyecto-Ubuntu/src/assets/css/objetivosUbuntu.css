@@ -1,0 +1,32 @@
+.frame-36{
+    width: 327px;
+    height: 320px;
+    position:relative;
+    margin-left: 16px;
+    margin-top: 40px;
+    border-top: 1px solid #226516;
+    border-bottom: 1px solid #226516;
+    padding: 8px 0px 16px 0px;
+    gap: 8px;
+    
+    }
+    
+    .frame-36-title{
+      line-height: 25px;
+      text-align: center;
+      margin-top: 10px;
+      
+    }
+    
+    .frame-36-list{
+      font-family: "Lato";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #090909;
+      gap: 8px;
+      margin-left: 0%;
+    }
+    .frame-36-list li{
+      padding-bottom: 10px;
+    }
